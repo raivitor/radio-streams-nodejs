@@ -17,8 +17,8 @@ export default{
         fxDirectory: join(audioDirectory, 'fx')
     },
     pages: {
-        homeHTML: 'home/index.html',
-        controller: 'controller/index.html'
+        homeHTML: publicDirectory,
+        controllerHTML: '../../public/controller/index.html'
     },
     location:{
         home: '/home'
