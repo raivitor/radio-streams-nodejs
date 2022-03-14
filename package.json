@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/raivitor/radio-streams-nodejs/issues"
   },
-  "homepage": "https://github.com/raivitor/radio-streams-nodejs#readme"
+  "homepage": "https://github.com/raivitor/radio-streams-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
