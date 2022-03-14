@@ -1,0 +1,24 @@
+{
+  "name": "radio-streams-nodejs",
+  "version": "1.0.0",
+  "description": "Testando a api de streams do NodeJs fazendo um player de audio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raivitor/radio-streams-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raivitor/radio-streams-nodejs/issues"
+  },
+  "homepage": "https://github.com/raivitor/radio-streams-nodejs#readme"
+}
