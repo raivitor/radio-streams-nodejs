@@ -7,9 +7,9 @@
   "scripts": {
     "start": "node server/index.js",
     "live-reload": "nodemon server/index.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache",
-    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache --watchAll",
-    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --no-cache --coverage tests/unit"
+    "test": "LOG_DISABLED=true NODE_OPTIONS=--experimental-vm-modules jest --no-cache",
+    "test:watch": "LOG_DISABLED=true NODE_OPTIONS=--experimental-vm-modules jest --no-cache --watchAll",
+    "test:coverage": "LOG_DISABLED=true NODE_OPTIONS=--experimental-vm-modules jest --no-cache --coverage tests/unit"
   },
   "engines": {
     "node": "17"
@@ -29,6 +29,7 @@
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "jest": "^27.5.1",
